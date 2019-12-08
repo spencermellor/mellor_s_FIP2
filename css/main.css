@@ -81,6 +81,7 @@ body {
   background-color: #000;
   padding: 20px 10px;
   font-family: 'Oswald', sans-serif;
+  vertical-align: middle;
 }
 
 .header a {
@@ -110,11 +111,11 @@ body {
 
 .mainNav {
   float: right;
+  margin-top: 15px;
 }
 
-.socialMedia {
+.svg {
   fill: white;
-  margin-left: 10px;
 }
 
 /*-- Close Header --*/
@@ -231,7 +232,7 @@ body {
   text-decoration: none;
   font-weight: 20px;
   font-family: 'Roboto Condensed', sans-serif;
-  margin-top: -200px;
+  margin-top: 20px;
   margin-bottom: 25px;
 }
 
@@ -408,4 +409,7 @@ input[type=submit] {
   justify-content: center;
 }
 
+.socialMedia {
+  float: right;
+}
 /*-- Close Footer --*/
